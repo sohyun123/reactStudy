@@ -31,7 +31,7 @@
 
 
 참고 자료
-1. [생활코딩 React] (https://opentutorials.org/module/4058/24666)
-2. [누구나 할 수 있는 React js] (https://velopert.com/3621)
-3. [리액트 기초 배우기] (https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-1-Hello-React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B3%BC-%EB%B9%8C%EB%93%9C?category=913270)
-4. [기초부터 배우는 react js] (https://medium.com/wasd/%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-react-js-2-f0e8d4a55740)
+1. [생활코딩 React](https://opentutorials.org/module/4058/24666)
+2. [누구나 할 수 있는 React js](https://velopert.com/3621)
+3. [리액트 기초 배우기](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-1-Hello-React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1%EA%B3%BC-%EB%B9%8C%EB%93%9C?category=913270)
+4. [기초부터 배우는 react js](https://medium.com/wasd/%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-react-js-2-f0e8d4a55740)
