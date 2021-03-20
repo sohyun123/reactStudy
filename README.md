@@ -76,6 +76,12 @@ class App extends Component{
 
 하고 해당 컴포넌트 안에서 {this.props.title} 이렇게 사용
 
+
+### 기억할 것
+
+- 상위->하위로 명령: props / 하위->상위로 명령: event(하위 컴포넌트가 상위 컴포넌트를 바꿀 수 없으므로) (w/o redux)
+
+
 ***
 
 
