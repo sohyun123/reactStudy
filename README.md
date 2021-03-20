@@ -22,6 +22,7 @@
              yarn test 또는 npm run test  
              yarn eject 또는 npm run eject  
              
+<img width="529" alt="스크린샷 2021-03-20 오전 11 36 57" src="https://user-images.githubusercontent.com/29995265/111856797-955a5600-8970-11eb-9ebe-21acda4660d9.png">
 
 
 
