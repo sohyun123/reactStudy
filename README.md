@@ -1,7 +1,7 @@
-### reactStudy
+# reactStudy
 ## React js
 
-# Install and Start  
+## Install and Start  
 
 1. Install Node.js (가능하면 최신버전으로) -> npm을 설치하는 의미
 2. (mac에서는) npm -v 으로 버전 확인(설치 확인)
@@ -27,11 +27,11 @@
 
 8. ctrl C 로 서버 종료
 
-# 배포
+## 배포
 npm run build하면 build라는 폴더 안에 파일 생성. 이 안의 index.html에는 불필요한 용량을 차지하는 것들이 지워진 채로 저장돼 있음  
   
   
-# React 구조  
+## React 구조  
 
 - node modules
 - public
