@@ -39,7 +39,9 @@ npm run build하면 build라는 폴더 안에 파일 생성. 이 안의 index.ht
 - src
     - 이 안에 있는 파일이 index.html에 들어갈 component들
     - index.js: 진입파일,
-                React.StrictMode> <App /> </React.StrictMode>, document.getElementById('root')  
+                ```{.no-highlight}
+                React.StrictMode> <App /> </React.StrictMode>, document.getElementById('root') 
+                ```
                 // 여기의 root랑 index.html의 root랑 매핑  
                 // App /은 react 통해 만든 사용자 정의 component. 실제 구현은 import App from ./App;에서!  
     - App.js: 실제로 구현되는 부분
@@ -60,15 +62,17 @@ npm run build하면 build라는 폴더 안에 파일 생성. 이 안의 index.ht
 
 (2)
 - App.js에서 하단에
-    class App extends Component{
-      render(){
-        return (
-          <div className="App">
-            <컴포넌트명 title ="WEB" sub="world wide web!"></컴포넌트명>
-          </div>
-        );
-      }
-    }
+```{.no-highlight}
+class App extends Component{
+  render(){
+    return (
+      <div className="App">
+        <컴포넌트명 title ="WEB" sub="world wide web!"></컴포넌트명>
+      </div>
+    );
+  }
+}
+```
 
 하고 해당 컴포넌트 안에서 {this.props.title} 이렇게 사용
 
