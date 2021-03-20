@@ -1,7 +1,7 @@
 ### reactStudy
 ## React js
 
-# Start
+# Install and Start  
 
 1. Install Node.js (가능하면 최신버전으로) -> npm을 설치하는 의미
 2. (mac에서는) npm -v 으로 버전 확인(설치 확인)
@@ -25,9 +25,28 @@
 
 <img width="529" alt="스크린샷 2021-03-20 오전 11 38 14" src="https://user-images.githubusercontent.com/29995265/111856830-c33f9a80-8970-11eb-9f63-5520f534a196.png">
 
+8. ctrl C 로 서버 종료
 
+# 배포
+npm run build하면 build라는 폴더 안에 파일 생성. 이 안의 index.html에는 불필요한 용량을 차지하는 것들이 지워진 채로 저장돼 있음  
+  
+  
+# React 구조  
 
-
+- node modules
+- public
+    - index.html: <div id="root"></div> 안에 component를 넣음
+- src
+    - 이 안에 있는 파일이 index.html에 들어갈 component들
+    - index.js: 진입파일,
+                <React.StrictMode> <App /> </React.StrictMode>, document.getElementById('root')
+                // 여기의 root랑 index.html의 root랑 매핑
+                // <App />은 react 통해 만든 사용자 정의 component. 실제 구현은 import App from './App';에서!
+    - App.js: 실제로 구현되는 부분
+    - index.css: 
+- package-lock.json
+- package.json
+- README.md
 
 
 ***
