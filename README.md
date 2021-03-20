@@ -50,10 +50,27 @@ npm run build하면 build라는 폴더 안에 파일 생성. 이 안의 index.ht
 
 ### 개발
 
+
+(1)
 - src 에 components dir 만들기
 - 그 안에 컴포넌트 별로 js 파일 만들어주기
-- 컴포넌트 js 파일 제일 위에는 ''' import { Component } from 'react'; '''
+- 컴포넌트 js 파일 제일 위에는 import { Component } from 'react'; 
+- 컴포넌트 js 파일 아래에는 export default 클래스명; 해서 외부에서도 쓸 수 있게끔
+- App.js에 import 컴포넌트명 from "./components/컴포넌트명";
 
+(2)
+- App.js에서 하단에
+    class App extends Component{
+      render(){
+        return (
+          <div className="App">
+            <컴포넌트명 title ="WEB" sub="world wide web!"></컴포넌트명>
+          </div>
+        );
+      }
+    }
+
+하고 해당 컴포넌트 안에서 {this.props.title} 이렇게 사용
 
 ***
 
